@@ -1,0 +1,19 @@
+{
+    "name": "vendor/ep-tech",
+    "description": "applicazione web e-commerce",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\EpTech\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "riccardo"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.20",
+        "doctrine/dbal": "^3.9"
+    }
+}
